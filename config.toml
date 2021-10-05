@@ -1,5 +1,5 @@
 # common config
-baseURL = 'https://tj-csccg.github.io/TJCS-F2F'
+baseURL = 'https://tj-csccg.github.io/TJCS-F2F/'
 copyright = 'TJ-CSCCG / Tongji Univ. CS(&IS) Cooperation Group'
 languageCode = 'zh-cn'
 theme = 'hugo-ink'

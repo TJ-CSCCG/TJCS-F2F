@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html {{- if (eq .Site.Params.mode "dark") -}}class="dark"{{ end }}>
+{{ partial "header.html" . }}
+<body>
+	<div class="container wrapper">
+		{{ partial "head.html" . }}
+
+		<div class="recent-posts section">
+			<div class="posts">
+				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
+				{{ range $paginator.Pages }}
+					<div class="post">
+						{{ partial "post-preview.html" . }}
+					</div>
+				{{ end }}
+				{{ template "partials/paginator.html" . }}
+			</div>
+		</div>
+	</div>
+	{{ partial "footer.html" . }}
+</body>
+</html>

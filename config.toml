@@ -1,0 +1,46 @@
+# common config
+baseURL = 'https://tj-csccg.github.io/TJCS-F2F'
+copyright = 'TJ-CSCCG / Tongji Univ. CS(&IS) Cooperation Group'
+languageCode = 'zh-cn'
+theme = 'hugo-ink'
+title = 'TJCS-F2F'
+
+[params]
+  avatar = 'https://avatars.githubusercontent.com/u/67193306'
+  subtitle = 'Face to Face, Tongji University Computer Science(&Information Security)'
+  enableGitalk = true
+  [params.gitalk]
+    clientID = "148be4957580274136ce"
+    clientSecret = "fdc03536d53f734a5a7c737b36931418d6334dd2"
+    repo = "TJCS-F2F"
+    owner = "TJ-CSCCG"
+    admin= "TJ-CSCCG"
+    labels= "gitalk"
+    perPage= 15
+    pagerDirection= "last"
+    createIssueManually= false
+    distractionFreeMode= true
+
+[[params.social]]
+  icon = 'github'
+  name = 'Github'
+  url = 'https://github.com/tj-csccg/TJCS-F2F'
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart =1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4

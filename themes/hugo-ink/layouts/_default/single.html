@@ -19,7 +19,7 @@
 					<h1 class="title">{{ .Title }}</h1>
 				</div>
 			</div>
-					
+
 			<div class="markdown">
 				{{ .Content }}
 			</div>
@@ -53,7 +53,12 @@
 			{{- partial "disqus.html" . -}}
 			{{- end -}}
 			{{- end -}}
+
+			<div class="post-comment">
+				{{ partial "comments.html" . }}
+			</div>
 		</div>
+
 	</div>
 	{{ partial "footer.html" . }}
 </body>

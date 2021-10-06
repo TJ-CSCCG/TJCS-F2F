@@ -1,6 +1,6 @@
 # common config
 baseURL = 'https://tj-csccg.github.io/TJCS-F2F/'
-copyright = 'TJ-CSCCG / Tongji Univ. CS(&IS) Cooperation Group'
+copyright = 'TJ-CSCCG / Tongji Univ. CS(&IS) Curriculum Cooperation Group'
 languageCode = 'zh-cn'
 theme = 'hugo-ink'
 title = 'TJCS-F2F'
@@ -9,17 +9,6 @@ title = 'TJCS-F2F'
   avatar = 'https://avatars.githubusercontent.com/u/67193306'
   subtitle = 'Face to Face, Tongji University Computer Science(&Information Security)'
   enableGitalk = true
-  [params.gitalk]
-    clientID = "148be4957580274136ce"
-    clientSecret = "fdc03536d53f734a5a7c737b36931418d6334dd2"
-    repo = "TJCS-F2F"
-    owner = "TJ-CSCCG"
-    admin= "TJ-CSCCG"
-    labels= "gitalk"
-    perPage= 15
-    pagerDirection= "last"
-    createIssueManually= false
-    distractionFreeMode= true
 
 [[params.social]]
   icon = 'github'

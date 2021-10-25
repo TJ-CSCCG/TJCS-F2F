@@ -5,6 +5,10 @@ languageCode = 'zh-cn'
 theme = 'hugo-ink'
 title = 'TJCS-F2F'
 
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
 [params]
   avatar = 'https://avatars.githubusercontent.com/u/67193306'
   subtitle = 'Face to Face, Tongji University Computer Science(&Information Security)'
@@ -20,19 +24,6 @@ title = 'TJCS-F2F'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
-  [markup.highlight]
-    anchorLineNos = false
-    codeFences = true
-    guessSyntax = true
-    hl_Lines = ""
-    lineAnchors = ""
-    lineNoStart =1
-    lineNos = true
-    lineNumbersInTable = true
-    noClasses = true
-    style = "monokai"
-    tabWidth = 4
 
 # Nav.
 [[menu.main]]

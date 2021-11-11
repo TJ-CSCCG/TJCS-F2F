@@ -4,6 +4,10 @@
 	</nav>
 </div>
 
+{{ if .Site.Params.busuanzi }}
+<script type="text/javascript" src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
+{{ end }}
+
 {{ template "_internal/google_analytics_async.html" . }}
 {{- with .Site.Params.Social -}}
 <script>feather.replace()</script>

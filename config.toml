@@ -13,6 +13,7 @@ pygmentscodefencesguesssyntax = true
   avatar = 'https://avatars.githubusercontent.com/u/67193306'
   subtitle = 'Face to Face, Tongji University Computer Science(&Information Security)'
   enableGitalk = true
+  busuanzi = true
 
 [[params.social]]
   icon = 'github'

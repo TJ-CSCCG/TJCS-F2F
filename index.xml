@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TJCS-F2F</title><link>https://tj-csccg.github.io/TJCS-F2F/</link><description>Recent content on TJCS-F2F</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>TJ-CSCCG / Tongji Univ. CS(&amp;IS) Curriculum Cooperation Group</copyright><lastBuildDate>Mon, 27 Dec 2021 16:33:40 +0800</lastBuildDate><atom:link href="https://tj-csccg.github.io/TJCS-F2F/index.xml" rel="self" type="application/rss+xml"/><item><title>2021 专访 (V) · Vace</title><link>https://tj-csccg.github.io/TJCS-F2F/posts/2021/post-vaceee/</link><pubDate>Mon, 27 Dec 2021 16:33:40 +0800</pubDate><guid>https://tj-csccg.github.io/TJCS-F2F/posts/2021/post-vaceee/</guid><description>这次采访我预谋已久，但我却并没有准备——没有预定好的问题、没有期望的答案，有的只是一些自然的杂谈。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TJCS-F2F</title><link>https://tj-csccg.github.io/TJCS-F2F/</link><description>Recent content on TJCS-F2F</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>TJ-CSCCG / Tongji Univ. CS(&amp;IS) Curriculum Cooperation Group</copyright><lastBuildDate>Mon, 04 Apr 2022 11:25:07 +0800</lastBuildDate><atom:link href="https://tj-csccg.github.io/TJCS-F2F/index.xml" rel="self" type="application/rss+xml"/><item><title>2021 专访 (VI) · zjq2333</title><link>https://tj-csccg.github.io/TJCS-F2F/posts/2021/post-zqj2333/</link><pubDate>Mon, 04 Apr 2022 11:25:07 +0800</pubDate><guid>https://tj-csccg.github.io/TJCS-F2F/posts/2021/post-zqj2333/</guid><description>2022 年 4 月 3 号，是清明节假期第一天，同时也是全校抗原检测、图书馆提前闭馆、春禾苑暂停堂食的一天。在这样一个特殊的日子里，我来到了一位不愿透露姓名的同学寝室中。
+Q: 简单自我介绍一下吧。
+A: 大家好，我是一名转专业的学生。入学时并没有进入计算机专业，首先是从工科试验班转入大飞机实验班，在大一下学期时本来想转到电信，但没转成，结果来到了计算机。这几年里没有参加过很多的比赛和科研项目，没有非常 “哇塞” 的竞赛或科研经历，大四才真正接触到科研。接下来一段时间，会到上海交通大学攻读计算机体系结构方向的博士学位。
+Q: 其实第一个问题主要围绕自我介绍中的一点——你的大方向是 “体系结构”，但我想问下具体的方向是什么。
+A: 现在还没有特别确定小方向。目前主要做一些有关 GPU 的工作，包括单 GPU 的微架构设计、多 GPU 间的互联、AI 编译以及分布式机器学习。与 GPU 相关的软硬件多少可能会涉及到一些。
+Q: 实际上一年前 QQ 聊天的时候就听说过这个 “微架构”，但当时也不知道这个 “微架构” 究竟是什么。刚刚说在大二、大三没有什么科研经历，那一年前为什么选择了这个方向？现在 AI 可以说是占据了保研界的大半壁江山，你又是怎么了解到这样一个领域呢？
+A: 首先，选择处理器微架构主要是觉得国内这个方向人还是比较缺的。其次，这个方向的可解释性是比较强的，能够清楚自己到底在优化什么东西。现在的深度学习，在我当时看来可解释性欠缺了一些；而且，当时觉得做深度学习的人太多了，卷也卷不过。很多做深度学习的本科就有了相关的科研竞赛经历，那不如选一个没有人抢的领域。但是最近感觉这个东西其实不太好做，主要是 CPU、GPU 这种通用计算的微架构设计改动效果近几年也不太多了，主要是互联、封装、堆结构；而 AI 处理器和非冯诺依曼结构的处理器在学术界虽然是热点，但是目前工业界使用的还是比较少，基本上还是 GPU。让我再选一遍，我肯定是要选 AI 的。
+Q: 第二个问题是，你为什么选择了平转而非降转呢？你如何看待平转的课程压力？
+A: 对我来说，我觉得没有太大必要降转。课程压力是有的，但是感觉好像也不太大，就是大二上学期大作业堆在一起的时候可能比较麻烦。我是只差了计科导和高程，当时看了下，感觉大二上学期的学分也不是很多，我印象中也就 20 多。
+Q: 我也不太清楚……不过你先前可能是学过线代概率论的？我当初正常来说是有 6 门课。
+A: 没学过。那学期也就 35.5 学分吧，其实也还行。主要是高程，自己学过一些东西，而且大二可能不会有特别多的事情，还是处理得过来。
+Q: 好的。那么作为一个平转的同学，你觉得计算机专业的学习和先前专业有没有什么不同？我问这个问题是因为我觉得大飞机和计算机的区别还是比较大的。
+A: 其实我觉得区别不大。要说有区别的话，大飞机那边更理论一些，对于数理基础的要求更强。但计算机这边除了算法与自动机，理论上的东西更少一些，更多是动手，具体体现在写代码上，正如前两天那位北航教授说的—— “高级蓝翔” 一般。不过反正也都是上课、做作业，貌似也没什么很大的区别；考试也都差不多，就是学那些东西，然后考前突击两天把它们都答出来。对我来说，就是当时编程不太熟悉，大二上学期过去以后感觉编程水平貌似也慢慢好了一点。
+Q: 第三个问题是，咱们大二下学期遇到了疫情，一个学期都在家里。那么你刚刚转过来不久就在家里待了一学期。之前看你说那段时间你没怎么学，直接开摆。我就想问下那段时间到底是怎么度过的？
+A: 哇那个学期，我天天晚上出去和同学打牌。尤其是算法分析与设计，每次都是打开 IPad 就睡着，睡醒就吃午饭，回头一看课早就结束了。所以某些课就做了做作业，好像也没怎么学，这点我还是比较后悔的。那个学期的课基本上都没怎么有印象，也没学其他的东西，有点浪费了。当然，由于自动机和计组是老师讲的，我还好好听了下。呃，应该好好把数学学一下的，数学还是太重要了，当时没感觉到。</description></item><item><title>2021 专访 (V) · Vace</title><link>https://tj-csccg.github.io/TJCS-F2F/posts/2021/post-vaceee/</link><pubDate>Mon, 27 Dec 2021 16:33:40 +0800</pubDate><guid>https://tj-csccg.github.io/TJCS-F2F/posts/2021/post-vaceee/</guid><description>这次采访我预谋已久，但我却并没有准备——没有预定好的问题、没有期望的答案，有的只是一些自然的杂谈。
 有的时候我会想，想起去年、前年以及大前年的 12 月。它们毫无疑问都是关键的时间点，但我却在那些时间里过得浑浑噩噩。如果能有人在那些时刻给予我一些关键的建议，我想我会走上完全不一样的道路。
 2021 年 12 月 25 日，是圣诞节，也是上海初雪的一天。气温骤降了十余度，Vace 在通达馆（交通运输工程学院大楼）的一楼对我讲起了他的本科四年。
 在那个时代 我和 Vace 是在 2019 年寒假认识的，当时我们在一个 “临时项目组” 中一起写后端代码。但这个问题我却是今天第一次问得这么清楚：

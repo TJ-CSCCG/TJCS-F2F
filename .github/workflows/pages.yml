@@ -33,7 +33,9 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          # The theme's footer uses _internal/google_analytics_async.html, which Hugo
+          # removed in 0.125.0; pinned to the last release that has it.
+          hugo-version: '0.124.1'
 
       - name: Build
         run: hugo --minify

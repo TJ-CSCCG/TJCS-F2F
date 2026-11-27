@@ -1,9 +1,14 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Deploy
+name: Pages
 
 # Controls when the workflow will run
-on: [ push, pull_request ]
+# Builds and deploys the site to GitHub Pages from main only; it used to deploy
+# on every push and pull request, which published unreviewed changes.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -15,7 +20,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v7
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
@@ -26,7 +31,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
 
@@ -34,7 +39,7 @@ jobs:
         run: hugo --minify
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
